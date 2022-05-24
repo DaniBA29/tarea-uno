@@ -2,12 +2,16 @@
 //esta puede cambiar la información que le asignamos.
 //La diferencia entre var y let, es que si let se declara en una función, esta no puede ser leída fuera de esa función,
 //al contrario, var si lo permite.
-
-let miNombre = 'Dani'
-if (true){
-    miNombre = 'María'
-    var miApellido = 'Blanco'
-}
+var miApellido = 'Blanco'
+function letAndVar() { 
+    let miNombre = 'Dani'
+    if (true){
+        miNombre = 'María'
+        miApellido = 'Araya'
+        console.log(miNombre)
+        console.log(miApellido)
+    }
+ } 
 console.log(miApellido)
 
 
